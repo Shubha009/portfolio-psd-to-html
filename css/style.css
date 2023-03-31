@@ -1,0 +1,1220 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+img{
+    border: 0;
+    vertical-align: middle;
+}
+
+.clr{
+    clear: both;
+}
+
+.full-wrapper{
+    width: 100%;
+}
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/*======================================
+         Banner-part css start
+=========================================*/
+.banner-bg{
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner-overlay{
+    background: rgba(18, 194, 233, 0.5);  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, rgba(79, 79, 246, 0.5), rgba(196, 113, 237, 0.50), rgba(18, 194, 233, 0.5));  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, rgba(246, 79, 89, 0.5), rgba(196, 113, 237, 0.5), rgba(18, 194, 233, 0.5)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.banner-text{
+    text-align: center;
+    
+}
+.banner-text h1{
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    padding: 455px 0px;
+}
+
+/*======================================
+         Banner-part css end
+=========================================*/
+
+
+
+/*======================================
+         Menu-part css start
+=========================================*/
+
+.menu-bg{
+    height: 100px;
+    background: #177bbb;
+}
+
+.logo{
+    width: 200px;
+    padding: 30px 0px; 
+    float: left;
+}
+
+.menu ul{
+    float: right;
+}
+
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    padding-right: 35px;
+    line-height: 100px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    transition: all linear 0.4s;
+}
+.menu ul li a:hover{
+    color: #fff;
+}
+
+
+/*======================================
+         Menu-part css end
+=========================================*/
+
+
+
+
+/*======================================
+         about-part css start
+=========================================*/
+
+.about-bg{
+    
+}
+
+}
+.item .item-text{
+    text-align: center;
+}
+.item .item-text h3{
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #010000;
+    padding: 100px 0px;
+    text-align: center;
+    
+}
+
+.item .item-text h3 span{
+    color: #177bbb;
+    
+}
+.welcome .item-part{
+    float: left;
+}
+.item .item-part{
+    text-align: center;
+    width: 370px;
+    padding-bottom: 100px;
+  
+}
+
+.item .item-part i{
+    font-size: 40px;
+    width: 85px;
+    height: 85px;
+    border: 2px solid #000;
+    line-height: 85px;
+    border-radius: 50%;
+    transition: all linear 0.3s;
+}
+.item .item-part i:hover{
+    background: #177bbb;
+    color: #fff;
+     border-color: #177bbb;
+    transform: rotate(360deg);
+}
+
+.item .item-part h4{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #000;
+    padding-top: 44px;
+    padding-bottom: 22px;
+}
+
+.item .item-part p{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #666666;
+    padding: 0 45px;
+    text-align: justify;
+}
+
+.item .item-part p span{
+    text-align: center;
+    display: block;
+}
+/*======================================
+         about-part css end
+=========================================*/
+
+
+/*======================================
+         work-part css start
+=========================================*/
+.work-item{
+    width: 100%;
+    background: #9fc8e3;
+    text-align: center;
+}
+.work-item h2{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #000;
+    padding-top: 100px;
+    padding-bottom: 25px;
+    
+    
+}
+
+.work-item p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #666666;
+}
+
+.work-item a{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    border: 1px solid #fff;
+    line-height: 40px;
+    display: inline-block;
+    padding: 0 30px;
+    margin-top: 47px;
+    transition: all linear 0.3s;
+    margin-bottom: 50px;
+}
+
+.work-item a:hover{
+    color: #fff;
+    background: #177bbb;
+    border-color: #177bbb;
+}
+.work-item img{
+    transform: scale(1);
+    transition: all linear 0.3s;
+}
+.work-item img:hover{
+    transform: scale(0.8);
+}
+
+/*======================================
+         work-part css end
+=========================================*/
+
+
+/*======================================
+         twitter-part css start
+=========================================*/
+.twitter-bg{
+    background: url(../images/twitter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.twitter-bg .overlay{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.twitter-part{
+    text-align: center;
+}
+
+.twitter-part a i{
+    color: #000;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    line-height: 65px;
+    background: #fff;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    transition: all linear 0.4s;
+}
+
+.twitter-part a i:hover{
+    background: #177bbb;
+}
+
+.twitter-part h3{
+    font-size: 20px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+    color: #fff;
+    padding-bottom: 25px;
+    
+}
+
+.twitter-part h6{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #177bbb;
+    padding-bottom: 135px;
+    
+}
+.twitter-part h6 span{
+    padding-left: 20px;
+}
+/*======================================
+         twitter-part css end
+=========================================*/
+
+
+/*======================================
+         team-part css start
+=========================================*/
+.team-bg{
+    background: #f6f6f6;
+    width: 100%;
+}
+.team-part .team-head{
+    text-align: center;
+}
+.team-part .team-head h3{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+    color: #000;
+    padding-top: 100px;
+    padding-bottom: 25px;
+}
+.team-part .team-head p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #666666;
+}
+.team-item{
+    padding-top: 50px;
+    text-align: center;
+}
+.team-part .team-item .team-member{
+    width: 292.5px;
+    position: relative;
+    float: left;
+}
+
+.team-part .team-item .team-member .team-overlay{
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    background: rgba(36, 123, 178, 0.9);
+    position: absolute;
+    left: 58px;
+    top: 0;
+    text-align: center;
+    line-height: 175px;
+    transform: scale(0);
+    transition: all linear 0.4s;
+    
+}
+.team-part .team-item .team-member:hover .team-overlay{
+    opacity: 1;
+    transform: scale(1);
+    text-align: center;
+}
+
+.team-part .team-item .team-member .team-overlay a i{
+    font-size: 16px;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 3px;
+    color: #177bbb;
+    background: #fff;
+    text-align: center;
+    transition: all linear 0.4s;
+}
+
+.team-part .team-item .team-overlay a i:hover{
+    color: #fff;
+    background: #177bbb;
+}
+.team-part .team-item h2{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #666666;
+    padding-top: 30px;
+}
+
+.team-part .team-item p{
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #666666;
+    padding-bottom: 100px;
+}
+/*======================================
+         team-part css end
+=========================================*/
+
+
+
+/*======================================
+         Skill-part css start
+=========================================*/
+
+
+.skill-bg{
+    background: url(../images/skillbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 470px;
+
+}
+.skill-overlay{
+    background: rgba(255, 255, 255, 0.9);
+    height: 470px;
+
+}
+.skill-overlay .skill-head{
+/*    float: left;*/
+}
+.skill-overlay .skill-head h2{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #010000;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+.skill-overlay .skill-part{
+    padding-top: 45px;
+/*    float: left;*/
+}
+.skill-overlay .skill-part .skill-part-left{
+    width: 630px;
+    float: left;
+}
+.skill-overlay .skill-part .skill-part-right{
+    width: 540px;
+    float: left;
+}
+.skill-overlay .skill-part .skill-part-left p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #666666;
+/*    padding: 0 71px;*/
+}
+
+.skill-overlay .skill-part .skill-part-left a{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #177bbb;
+    border: 1px solid #177bbb;
+    line-height: 45px;
+    display: inline-block;
+    padding: 0 30px;
+    border-radius: 3px;
+    margin-top: 50px;
+}
+.skill-part-right .skill-part-name{
+    float: left;
+    width: 140px;
+    
+}
+.skill-part-right .skill-part-name h5{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #000;
+/*    margin-bottom: 45px;*/
+}
+.skill-part-right .progress-bar{
+    float: left;
+    
+    
+}
+.skill-part-right .progress-bar ul li{
+   margin-bottom: 30px;
+}
+.skill-part-right .progress-bar ul li .bar{
+    background: #d1e5f1;
+    height: 11px;
+    width: 400px;
+    display: block;
+    border: 1 px solid #0fa6ac;
+    overflow: hidden;
+    border-radius: 3px;
+}
+ .skill-part-right .progress-bar ul li .bar span{
+   height: 11px;
+    float: left;
+    background: #177bbb;
+    border-radius: 3px 0px 0px 3px;
+    
+}
+.skill-part-right .progress-bar ul li .design{
+    width: 85%;
+    animation: design 2s;
+}
+
+.skill-part-right .progress-bar ul li .research{
+    width: 75%;
+    animation: research 2s;
+}
+
+.skill-part-right .progress-bar ul li .marketing{
+    width: 70%;
+    animation: marketing 2s;
+}
+
+.skill-part-right .progress-bar ul li .strategy{
+    width: 90%;
+    animation: strategy 2s;
+}
+
+@keyframes design{
+    0%{
+        width: 0%;
+        
+    }
+    100%{
+        width: 85%;
+    }
+}
+
+@keyframes research{
+    0%{
+        width: 0%;
+        
+    }
+    100%{
+        width: 75%;
+    }
+}
+
+@keyframes marketing{
+    0%{
+        width: 0%;
+        
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+@keyframes strategy{
+    0%{
+        width: 0%;
+        
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+.skill-part-right .progress-bar ul li h3{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.skill-part-right .skill-part-name .one{
+    margin-left: 25px;
+    margin-top: 13px;
+/*    margin-bottom: 0px;*/
+}
+
+.skill-part-right .skill-part-name .two{
+    margin-top: 41px;
+/*    margin-bottom: 0px;*/
+}
+
+.skill-part-right .skill-part-name .three{
+    margin-top: 41px;
+/*    margin-bottom: 0px;*/
+}
+
+
+.skill-part-right .skill-part-name .four{
+    margin-left: 25px;
+    margin-top: 41px;
+/*    margin-bottom: 0px;*/
+}
+
+.skill-part-right .progress-bar ul li .p-one{
+    margin-left: 83%;
+}
+.skill-part-right .progress-bar ul li .p-two{
+    margin-left: 73%;
+}
+.skill-part-right .progress-bar ul li .p-three{
+    margin-left: 68%;
+}
+.skill-part-right .progress-bar ul li .p-four{
+    margin-left: 88%;
+}
+/*======================================
+         Skill-part css end
+=========================================*/
+
+
+
+
+/*======================================
+         Service-part css start
+=========================================*/
+
+
+.service-bg{
+    width: 100%;
+    background: url(../images/service.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 620px;
+}
+
+.service-bg .service-overlay{
+    width: 100%;
+    background: rgba(23, 123, 187, 0.9);
+    height: 620px;
+}
+.service-part .service-head{
+    text-align: center;
+}
+.service-part .service-head h2{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 25px;
+  
+}
+
+.service-part .service-head p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #000;
+  
+}
+.service-main{
+   
+    float: left;
+    padding-top: 50px;
+    margin-bottom: 45px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.service-main .service-left{
+    width: 390px;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 30px 0;
+}
+
+.service-main .service-center{
+    width: 390px;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 30px 0;
+}
+.service-main .service-right{
+    width: 390px;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 30px 0;
+
+}
+.mr{
+    margin-right: 0!important;
+}
+
+.service-main .item-icon{
+    width: 80px;
+    float: left;
+}
+.service-main .item-des{
+    width: 310px;
+    float: left;
+}
+.service-main .item-des h3{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    margin-right: 129px;
+}
+.service-main .item-des p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 25px;
+    padding: 0 17px;
+    text-align: justify;
+    
+}
+.service-main i{
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    background: #ea2e49;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 30px;
+    
+}
+
+.service-main .one i{
+    background: #6fb554;
+}
+
+.service-main .two i{
+    background: #f35f3d;
+}
+.service-main .three i{
+    background: #6fb554;
+}
+.service-main .four i{
+    background: #ea2e49;
+}
+.service-main .five i{
+    background: #2355a8;
+}
+/*======================================
+         Service-part css end
+=========================================*/
+
+
+/*======================================
+         people-part css start
+=========================================*/
+
+
+.people-bg{
+    width: 100%;
+    background: url(../images/people.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 320px;
+    
+}
+
+
+.people-overlay{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    transition: all linear 0.3s;
+        
+}
+
+.people-overlay:hover{
+    background: rgba(0, 0, 0, 0);
+}
+.people-overlay .people-text h2{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    padding-top: 215px;
+    padding-bottom: 48px;
+/*    padding: 0 20px;*/
+}
+
+.people-overlay .people-text h2 span{
+    color: #197eb9;
+}
+
+
+/*======================================
+         people-part css end
+=========================================*/
+
+
+
+
+/*======================================
+         portfolio-part css start
+=========================================*/
+
+.portfolio-bg{
+    background: #9fc8e2;
+}
+
+.portfolio-part .portfolio-head h2{
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+    color: #000;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.port-menu-bg{
+    background: #9fc8e2;
+    height: 50px;
+}
+
+.port-menu .port-left{
+    width: 400px;
+    height: 50px;
+    float: left;
+}
+
+.port-menu .port-center{
+    width: 370px;
+    height: 50px;
+    float: left;
+}
+
+.port-menu .port-right{
+    width: 400px;
+    height: 50px;
+    float: left;
+}
+
+.port-menu .port-center ul li{
+    float: left;
+    padding: 0 15px;
+    padding-top: 20px;
+}
+.port-menu .port-center ul li a{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+    color: #177bbb;
+    
+}
+
+.gallery-bg{
+     background: #9fc8e2;
+}
+.gallery-part{
+    padding-top: 40px;
+}
+.gallery-item{
+    width: 270px;
+    float: left;
+    margin-right: 30px;
+    position: relative;
+    margin-bottom: 50px;
+}
+.gallery-item img{
+    width: 100%;
+    border-radius: 3px;
+}
+.gallery-overlay{
+  width: 270px;
+    height: 45px;
+    background: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 0px 0px 3px 3px;
+}
+.gallery-overlay h6{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    line-height: 45px;
+    padding-left: 20px;
+}
+.mr{
+    margin-right: 0!important;
+}
+
+.gallery-part .load a{
+    color: #177bbb;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    border: 1px solid #177bbb;
+    border-radius: 3px;
+    line-height: 40px;
+    display: inline-block;
+    padding: 0 20px;
+    transition: all linear 0.3s;
+    margin-bottom: 100px;
+    
+    
+}
+.gallery-part a:hover{
+    background:#177bbb;
+    color: #fff;
+}
+.gallery-part .load{
+    text-align: center;
+}
+
+/*======================================
+         portfolio-part css end
+=========================================*/
+
+
+
+/*======================================
+         company-part css start
+=========================================*/
+
+
+.company-bg{
+    background: #fff;
+}
+.company-part{
+    padding: 100px 0px 50px 0px;
+}
+.company-item{
+    width: 270px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 50px;
+   
+    
+}
+
+.company-item img{
+    width: 100%;
+}
+
+
+
+
+/*======================================
+         company-part css end
+=========================================*/
+
+
+
+/*======================================
+         Blog-part css start
+=========================================*/
+
+
+.blog-bg{
+    background: #323232;
+}
+.blog-gly{
+    padding-top: 50px;
+}
+.blog-head h1{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+.blog-item{
+    width: 370px;
+    float: left;
+    margin-right: 30px;
+    position: relative;
+    
+}
+.blog-overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(23, 123, 187, 0.7);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 63px;
+}
+
+.blog-item img{
+    width: 100%;
+}
+.overlay-part-1{
+    float: left;
+    width: 50%;
+}
+.overlay-part-1 h6{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    padding: 15px 0px;
+    padding-left: 20px;
+    
+}
+
+.overlay-part-2{
+    float: left;
+    width: 50%;
+}
+
+.overlay-part-2 ul li{
+    float: left;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding: 25px 0px;
+    color: #fff;
+    
+}
+.overlay-part-2 ul li i{
+    padding-right: 10px;
+}
+.overlay-part-2 ul{
+        padding-left: 110px;
+}
+
+.blog-title{
+    width: 370px;
+    float: left;
+    margin-right: 30px;
+}
+
+.blog-title h3{
+    font-size: 18px;
+     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    
+}
+.blog-title p{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #fffefe;
+    padding-bottom: 100px;
+}
+/*======================================
+         Blog-part css end
+=========================================*/
+
+
+/*======================================
+         contact-part css start
+=========================================*/
+
+.contact-bg{
+    background: #fff;
+}
+.contact-page{
+    width: 50%;
+    float: left;
+}
+.mesg-page{
+    width: 50%;
+    float: left;
+}
+.contact-page h2{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #000;
+    padding: 50px 0px;
+}
+.contact-page p{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #666666;
+    padding-bottom: 53px;
+   
+}
+.contact-link ul li{
+
+}
+.contact-link ul  li a i{
+    padding-right: 25px;
+    color: #177bbb;
+}
+.contact-link ul  li a span{
+    color: #177bbb;
+}
+.contact-link ul li{
+    float: left;
+}
+.mesg-page{
+    padding-left: 66px;
+    float: left;
+    box-sizing: border-box;
+}
+.mesg-item h2{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #000;
+    padding: 50px 0;
+    
+}
+.mesg-item .name{
+    width: 570px;
+    height: 40px;
+    background: none;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    border: 1px solid #177bbb;
+    padding-left: 20px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #177bbb;
+    
+}
+::placeholder{
+    color: #177bbb;
+}
+
+.mesg-item .msg{
+    width: 570px;
+    padding-top: 20px;
+    padding-bottom: 90px;
+    background: none;
+    border: 1px solid #177bbb;
+    border-radius: 3px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-left: 20px;
+    color: #177bbb;
+    
+}
+.mesg-item button{
+    width: 592px;
+    height: 40px;
+    padding-left: 20px;
+    border: 0;
+    background: #323232;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    
+}
+.mesg-item button i{
+    color: #fff;
+    font-size: 20px;
+    line-height: 40px;
+    
+}
+/*======================================
+         contact-part css end
+=========================================*/
+
+
+/*======================================
+         footer-part css start
+=========================================*/
+
+.footer-bg{
+    background: #191919;
+    height: 125px;
+}
+.footer-part{
+   text-align: center;
+}
+.footer-left{
+    width: 300px;
+    height: 125px;
+    float: left;
+    background: #191919;
+}
+
+.footer-center{
+    width: 570px;
+    float: left;
+    height: 125px;
+    text-align: center;
+}
+.footer-center ul{
+    padding-left: 82px;
+}
+.footer-center ul li{
+    float: left;
+    padding-top: 50px;
+    padding-right: 30px;
+    
+    text-align: center;
+    
+}
+.footer-center ul li a i{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #000;
+}
+.footer-right{
+    width: 300px;
+    height: 125px;
+    float: left;
+    background: #191919;
+}
+
+
+.copy-bg{
+    background: #191919;
+}
+.copy{
+    text-align: center;
+    
+}
+.copy h6{
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-bottom: 65px;
+}
+/*======================================
+         footer-part css end
+=========================================*/
